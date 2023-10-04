@@ -1,0 +1,28 @@
+.main-content
+  h1 
+    | Cognition Prizes
+    small Hover over any notebooks...
+    
+  .moleskine-wrapper
+    .moleskine-notebook
+      .notebook-cover
+        .notebook-skin First
+      .notebook-page
+  .moleskine-wrapper
+    .moleskine-notebook
+      .notebook-cover.blue
+        .notebook-skin Second
+      .notebook-page.ruled
+  .moleskine-wrapper
+    .moleskine-notebook
+      .notebook-cover.yellow
+        .notebook-skin Third
+      .notebook-page.squared
+  
+  footer
+    a(href="https://twitter.com/meowlivia_" target="_blank")
+      i.icon-social-twitter.icons
+    a(href="https://github.com/oliviale" target="_blank")
+      i.icon-social-github.icons
+    a(href="https://dribbble.com/oliviale" target="_blank")
+     i.icon-social-dribbble.icons
